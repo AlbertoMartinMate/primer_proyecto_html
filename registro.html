@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+
+  <!-- Título para el navegador y los buscadores -->
+  <title>MMT Academy</title>
+
+  <!-- Descripción de la página para los buscadores -->
+  <meta name="description" content="Proyecto en la creación de un sitio web de una academia">
+
+  <!-- Palabras clave para los buscadores -->
+  <meta name="keywords" content="p, h1, h2, h3, h4, h5">
+
+  <!-- Autor de la página -->
+  <meta name="author" content="Alberto Martin">
+
+  <!-- Favicon de la página -->
+  <link rel="icon" href="favicon_amm_black.ico" type="image/favicon_amm_black">
+
+  <!-- Codificación-->
+  <meta charset="UTF-8">
+
+  <!-- Para que la web sea responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Para algunos navegadores móviles -->
+  <meta name="theme-color" content="#1e7bbf">
+
+</head>
+
+<body>
+  <header>
+    <figure>
+      <img width="250px" src="img/logo_cabecera2.png" alt="Logo cabecera MMT Academy">
+    </figure><hr />
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="quienes_somos.html">Quienes somos</a></li>
+        <li><a href="cursos.html">Cursos</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li>Registro</li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <hr>
+    <section>
+      <h1>Regístrate</h1>
+      <form action="#" name="registro" method="post" autocomplete="off" enctype="multipart/form-data">
+        <input type="hidden" name="company" value="MMT Academy">
+
+      <fieldset>
+        <p> <label for="nombre" >Nombre Completo</label> <br>
+          <input type="text" name="nombre" id ="nombre" placeholder="José Pérez López" size="40" autocomplete="off">
+        </p>
+     
+        <p><label for="fecha" >Fecha de nacimiento</label> <br>
+        <input type="date" name="fecha" id="fecha">
+        </p>
+      
+        <p><label for="email" >Email</label> <br>
+        <input type="email" name="pais" size="40" autocomplete="off" id="email" placeholder="ejemplo@mail.com"><br />
+        </p>
+
+        <p><label for="direccion" >Direccion</label> <br>
+          <input type="text" name="pais" size="60" autocomplete="off" id="email" placeholder="Calle sin nombre, 35, Albuquerque (kentacky) 0000"><br />
+        </p>
+
+        <p><label for="curso" >Curso al que realizar la inscripcion</label> <br>
+          <select name="curso" id="curso">
+            <option value="">-</option>
+            <option value="1">Inteligencia Artificial</option>
+            <option value="2">Ciberseguridad</option>
+          </select>
+        </p>
+
+        <p><label for="foto" >Foto</label> <br>
+          <input type="file"id="foto" accept="image/*">
+  
+        <p>
+          <label for="bio">Biografía</label><br>
+          <textarea name="bio" id="bio" cols="60" rows="5"></textarea>
+        </p>
+      </fieldset>
+    
+      <button>Enviar</button>
+      <input type="reset" value="Borrar el formulario"> 
+    </form>
+    </section>
+  </main> <br>
+
+  <footer>
+    © 2025 - Todos los derechos reservados by Alberto Martin
+    <a href="aviso_legal.html"> Aviso Legal</a>
+</footer>
+
+</body>
+
+
+</html>
